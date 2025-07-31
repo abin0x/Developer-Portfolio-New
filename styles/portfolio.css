@@ -201,3 +201,25 @@ main section{
     border-top: 1px solid #e0e0e0;
     margin: 30px;
 }
+
+/* Footer Style  */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="email"], footer input[type="text"], footer textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
