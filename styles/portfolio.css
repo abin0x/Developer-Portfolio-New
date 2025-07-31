@@ -28,6 +28,7 @@
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
+    
 }
 
 .section-title{
@@ -173,4 +174,30 @@ main{
 main section{
     margin-top: 130px;
     margin-bottom: 130px;
+}
+
+
+/* Resume Section Styles  */
+
+.resume-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    /* font-size: 18px; */
+    color: #757575;
+    
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px ;
+}
+.resume hr{
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 30px;
 }
