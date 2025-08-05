@@ -116,7 +116,7 @@ nav ul li a{
     font-weight: bold;
     /* margin-top: 20px; */
 }
-.banner-image{
+.banner-profile-pic{
     width: 580px;
 }
 
@@ -238,9 +238,15 @@ footer input[type="email"], footer input[type="text"], footer textarea{
 
 @media screen and (max-width:576px){
    
-    .resume-container,.about-items,.skills-container,.banner{
+    .resume-container,.about-items,.skills-container,.banner,nav,nav > ul{
         flex-direction: column;
         
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    nav{
+        background-color: #ffffff;
     }
     .secondary-bg{
         flex-direction: column;
@@ -273,5 +279,38 @@ footer input[type="email"], footer input[type="text"], footer textarea{
     .header{
         background-image: none;
     }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+        .banner {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 20px;
+            text-align: center;
+        }
+    
+        .banner-content {
+            min-width: auto;
+            width: 100%;
+            padding: 0 10px;
+        }
+    
+        .banner-grettins {
+            font-size: 24px;
+        }
+    
+        .banner-title {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+    
+        .banner-profile-pic {
+            width: 100%;
+            max-width: 420px;
+        }
         
 }
